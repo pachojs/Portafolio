@@ -9,12 +9,8 @@
       </p>
     </div>
     <proficiencyCards></proficiencyCards>
-    <div class="education-container">
-      <h2>ESTUDIOS</h2>
-      <div>
-        
-      </div>
-    </div>
+    <educationSection></educationSection>
+
   </div>
   
 </template>
@@ -23,12 +19,14 @@
 
 import StarryBackground from '@/components/StarryBackground.vue';
 import ProficiencyCards from '@/components/proficiencyCards.vue';
+import educationSection from '@/components/educationSection.vue';
 
 export default {
   name: 'AboutView',
   components: {
     StarryBackground,
     ProficiencyCards,
+    educationSection,
 }
 }
 </script>
